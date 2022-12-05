@@ -1,0 +1,16 @@
+{
+  "name": "repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd demo && npx vite build && cd .. && touch docs/.nojekyll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^3.2.5",
+    "vite-plugin-chunk-split": "^0.4.4"
+  }
+}
